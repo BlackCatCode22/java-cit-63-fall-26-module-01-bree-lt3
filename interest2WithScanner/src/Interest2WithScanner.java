@@ -1,3 +1,9 @@
+/*
+  Breanna Rayburn
+  File: Interest2WithScanner.java
+  Date: 08/18/2026
+*/
+
 import java.util.Scanner;
 
 public class Interest2WithScanner 

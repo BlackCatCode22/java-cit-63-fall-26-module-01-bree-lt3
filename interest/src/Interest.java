@@ -1,6 +1,6 @@
 /*
   Breanna Rayburn
-  File: SumOfTwoInts.java
+  File: Interest.java
   Date: 08/18/2026
 */
 
