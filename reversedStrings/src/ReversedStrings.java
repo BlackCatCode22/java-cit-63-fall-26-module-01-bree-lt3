@@ -18,6 +18,6 @@ public class ReversedStrings
       reverseInput = userInput.charAt(i) + reverseInput;
     }
 
-    System.out.println(reverseInput);
+    System.out.println("Now here's the reverse: " + reverseInput);
   }
 }
