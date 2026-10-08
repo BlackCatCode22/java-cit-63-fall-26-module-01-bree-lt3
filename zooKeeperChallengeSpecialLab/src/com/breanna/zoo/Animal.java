@@ -6,13 +6,13 @@ public class Animal
   private final String species;
   private int age;
   private double weight;
-  private final String gender;
+  private final String sex;
 
-  public Animal(String animalID, String species, int age, double weight, String gender)
+  public Animal(String animalID, String species, int age, double weight, String sex)
   {
     this.animalID = animalID;
     this.species = species;
-    this.gender = gender;
+    this.sex = sex;
     setAge(age);
     setWeight(weight);
   }
@@ -21,7 +21,7 @@ public class Animal
   public String getSpecies() { return species; }
   public int getAge() { return age; }
   public double getWeight() { return weight; }
-  public String getGender() { return gender; }
+  public String getSex() { return sex; }
   public void setAge(int age) 
   {
     if(age < 0) throw new IllegalArgumentException("Negative age");
@@ -36,6 +36,6 @@ public class Animal
   public String makeSound() { return "unknown"; }
   public void displayInfo()
   {
-    System.out.println("%s | %s | %d years | %1 f lb | %s%n, animalID, species, age, weight, gender");
+    System.out.println("%s | %s | %d years | %1 f lb | %s%n, animalID, species, age, weight, sex");
   }
 }
