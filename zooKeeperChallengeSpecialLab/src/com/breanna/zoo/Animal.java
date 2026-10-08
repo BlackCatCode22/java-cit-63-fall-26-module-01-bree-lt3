@@ -38,5 +38,4 @@ public class Animal
   {
     System.out.println("%s | %s | %d years | %1 f lb | %s%n, animalID, species, age, weight, gender");
   }
-  
 }
